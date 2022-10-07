@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --Dark-Blue-Dark-Mode-Elements: hsl(209, 23%, 22%);
+  --Very-Dark-Blue-Dark-Mode-Background: hsl(207, 26%, 17%);
+  --Very-Dark-BlueLight-Mode-Text: hsl(200, 15%, 8%);
+  --Dark-Gray-Light-Mode-Input: hsl(0, 0%, 52%);
+  --Very-Light-Gray-Light-Mode-Background-: hsl(0, 0%, 98%);
+  --White-Dark-Mode-Text-Light-Mode-Elements: hsl(0, 0%, 100%);
+}
+
+body {
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+button {
+  border: 0;
+  outline: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  box-shadow: -3px 13px 37px 0px rgba(0, 0, 0, 0.96);
+  background-color: #ffffff;
+}
+
+.nav-question {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.nav-mode {
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.nav-mode:hover {
+  color: darkblue;
+}
+
+.Content-information {
+  background-color: #fafafa;
+  width: 100%;
+  padding: 40px;
+}
+
+.Content-information-button {
+  border-radius: 5px;
+  padding: 12px;
+  width: 120px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 9px -3px rgba(0, 0, 0, 0.49);
+  margin-bottom: 80px;
+  cursor: pointer;
+}
+
+.Content-information-button:active {
+  transform: scale(0.99);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  margin: 5px;
+  padding: 10px;
+}
+
+.Content-information-block {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+
+.Content-information-block-box {
+  height: 100%;
+  width: 50%;
+}
+
+.Content-information-block-imagen-flag {
+  height: 90%;
+  width: 90%;
+}
+
+.Content-information-block-description-information {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.Content-information-block-description-title {
+  margin-bottom: 40px;
+}
+
+.Content-information-block-description-paragrahp {
+  margin-bottom: 10px;
+}
+
+.Content-information-block-description-label {
+  margin-top: 150px;
+}
